@@ -1,0 +1,13 @@
+
+.trust{
+    @apply flex flex-wrap justify-center gap-5 lg:px-[100px] my-28
+}
+
+
+.trust-logoes{
+    @apply flex-wrap justify-between gap-5 w-10/12 items-center p-2 lg:w-full lg:mx-0 xl:mx-20
+}
+
+.trust-logoes div{
+    @apply w-full xl:w-fit flex justify-center lg:w-fit
+}

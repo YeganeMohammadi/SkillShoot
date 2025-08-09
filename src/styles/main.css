@@ -1,0 +1,49 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "helper.css";
+@import "header.css";
+@import "nav.css";
+@import "trust.css";
+@import "discount.css";
+@import "why-exist.css";
+@import "popular-courses.css";
+@import "skill-shoot.css";
+@import "subscribe.css";
+@import "testemonial.css";
+@import "course-page.css";
+@import "buy-class.css";
+@import "profile-course.css";
+@import "login.css";
+@import "tailwindcss/utilities";
+
+
+
+@layer utilities{
+    .bg-primary{
+        background-color: #245D51;
+    }
+    .bg-secondry{
+        background-color: #CB8461;
+    }
+    .bg-f5{
+        background-color: #f5f5f5;
+    }
+    .text-body{
+        color: #2C2C2C;
+    }
+    .text-primary{
+        color: #245D51;
+    }
+    .text-paragraf{
+        color: #808080;
+    }
+    .border-primary{
+        border-color: #245D51;
+    }
+    .border-secondry{
+        border-color: #CB8461;
+    }
+    .text-secondry{
+        color: #CB8461;
+    }
+}

@@ -1,0 +1,38 @@
+.buy-class-right-col{
+    @apply w-full md:w-[50%] lg:w-[48%] 2xl:w-[60%]
+}
+
+.bill{
+    @apply bg-f5 rounded-[15px] py-8 px-5 w-full
+}
+
+.heading3{
+    @apply text-body text-[18px] lg:text-[28px] font-semibold flex-grow mb-2
+}
+.table-label{
+    @apply text-body text-[14px] lg:text-[20px] capitalize lg:w-[48%]
+}
+
+.table-row-value{
+    @apply text-[14px] lg:text-[20px] text-[#808080] capitalize text-right
+}
+
+.my-table-row{
+    @apply flex justify-between w-full py-3
+}
+
+.discount-code{
+    @apply w-[90%] text-[14px] lg:text-[20px] rounded-lg px-[28px]
+}
+
+.modal-lay{
+    @apply  w-full h-full z-20 top-0 left-0 bg-gray-400 bg-blend-luminosity
+}
+
+.modal-decore{
+    @apply bg-transparent block border-[1px] border-white rounded-[15px] w-[323px] h-[229px] -skew-x-1 skew-y-1 xl:scale-150 2xl:scale-[200%] 
+}
+
+.modal-content{
+    @apply bg-white flex items-center justify-center rounded-[15px] w-[323px] h-[229px] skew-x-12 -skew-y-12
+}

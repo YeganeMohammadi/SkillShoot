@@ -1,0 +1,58 @@
+.subscribe{
+    @apply flex flex-wrap justify-center
+}
+
+
+.subscribe-plans{
+    @apply w-full lg:w-8/12 mx-14 px-1 mb-20  items-end flex flex-wrap gap-8 lg:gap-1 xl:gap-5
+}
+
+.subscribe-plan-cost{
+    @apply text-[12px] lg:text-[16px]
+}
+
+.subscribe-plan-cost span{
+    @apply text-[18px] lg:text-[36px] font-bold
+}
+
+.subscribe-title{
+    @apply text-[20px] lg:text-[28px] font-bold w-full
+}
+
+
+.subscribe-plan{
+    @apply flex flex-wrap w-full md:max-w-[292px]  lg:w-3/12 h-fit
+}
+
+.subscribe-plan-advantages{
+    @apply flex flex-wrap justify-center gap-3
+}
+
+.subscribe-plan-advantage{
+    @apply flex items-center gap-2 w-full text-[12px] lg:text-[16px] text-body leading-[30px]
+}
+
+.subscribe-plan-advantage span{
+    @apply rounded-full bg-[#5243C2] bg-opacity-10 p-[2px]
+}
+
+.choose-plan-btn{
+    @apply text-[#FDC2A5] bg-[#FED1BA] bg-opacity-10 rounded-[24px] text-[12px] lg:text-[16px] font-semibold w-full py-[15px] justify-self-center
+}
+.plan-pro{
+    @apply bg-primary px-10 py-3  min-w-[292px] md:max-w-[292px] lg:min-w-[292px] rounded-[26px] shadow-xl shadow-[#245D51] gap-5
+}
+.subscribe-plan-badge{
+    @apply w-full flex justify-end z-20
+}
+.subscribe-plan-badge span{
+    @apply text-center bg-secondry rounded-full text-white px-[25px] py-[5px]
+}
+
+.plan-pro .subscribe-plan-advantage span{
+    @apply bg-white bg-opacity-10 w-[20px] h-[20px] flex justify-center pt-0 overflow-hidden
+}
+
+.effect{
+    @apply bg-[url(../images/suscribe-pro-efect.png)] block h-[576px] w-[140px]  absolute bg-no-repeat top-0 right-0
+}

@@ -1,0 +1,65 @@
+.container{
+    @apply max-w-screen-2xl my-0 mx-auto
+}
+
+.row{
+    @apply flex justify-between mx-[44px] lg:mx-[80px]
+}
+
+.heading2{
+    @apply text-lg font-semibold text-body text-center mb-5 lg:text-[2.5vw] 
+    lg:leading-[3.4vw]
+}
+
+.heading2 span{
+    @apply text-[#CB8461]
+}
+
+.paragraph{
+    @apply text-[12px] leading-[30px] text-[#808080] text-center lg:text-[1.111vw] lg:leading-[2.43vw] lg:text-left
+}
+.start-jurney-large{
+    @apply bg-secondry text-white text-[20px] font-bold px-[25px] py-[12px] rounded-[4px] cursor-pointer
+}
+
+.orange-btn{
+    @apply bg-secondry text-white text-[18px] px-[44px] py-[7px] rounded-[4px] cursor-pointer
+    lg:font-normal capitalize
+}
+
+.green-btn{
+    @apply bg-primary text-white text-[14px] font-semibold px-[25px] py-[15px] cursor-pointer
+    rounded-[4px] lg:text-[20px] lg:font-bold
+}
+
+.white-btn{
+    @apply bg-white text-[#808080] text-[12px] lg:text-[16px] border-[1px] border-[#808080] rounded-[50px] px-[30px] py-[10px]
+    hover:bg-primary hover:text-white transition-all duration-300 capitalize font-semibold min-w-fit whitespace-nowrap shrink-0
+}
+
+.white-btn-actived{
+    @apply bg-primary shadow-lg text-white text-[12px] lg:text-[16px] border-[1px] border-[#808080] rounded-[50px] px-[30px] py-[10px] font-semibold min-w-fit whitespace-nowrap shrink-0
+}
+
+
+
+.skills-span{
+    @apply border border-[#2C2C2C] rounded-[8px] px-[18px] py-[10px] text-body text-[14px] lg:text-[16px] lg:leading-7 capitalize
+}
+
+footer{
+    @apply bg-primary pt-8 pb-10 flex flex-wrap gap-5 px-[67px]
+}
+footer input{
+    @apply w-full lg:w-[380px] bg-white bg-opacity-10 py-3 px-3 placeholder:text-white placeholder:font-light rounded-md
+}
+footer p{
+    @apply text-white/60 font-light text-[12px] lg:text-[16px] leading-[30px] text-center w-full
+}
+
+input{
+    @apply outline-none
+}
+button{
+    @apply outline-none
+}

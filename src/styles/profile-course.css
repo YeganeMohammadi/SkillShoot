@@ -1,0 +1,3 @@
+.profile-course-card{
+    @apply course-card md:max-w-[28.68vw] shadow-lg lg:shadow-sm
+}

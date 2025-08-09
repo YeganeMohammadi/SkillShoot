@@ -1,0 +1,52 @@
+.popular-courses{
+    @apply mt-28 bg-primary py-[81px] flex flex-wrap justify-center gap-10
+}
+
+.courses-scroll-box{
+    @apply w-full gap-6 overflow-x-auto flex-shrink flex-nowrap px-2
+}
+
+.course-card{
+    @apply flex flex-wrap gap-10 bg-white min-w-[276px] lg:min-w-[4/12] rounded-[20px] 
+}
+
+.course-discriotion{
+    @apply flex flex-wrap gap-5 px-[18px]
+}
+.course-title{
+    @apply text-body text-[14px] font-semibold lg:text-[24px]
+}
+
+.master-info{
+    @apply flex flex-wrap items-center 
+}
+
+.master-info-name{
+    @apply font-medium text-[10px] lg:text-[14px] text-body leading-[12px] lg:leading-[16px] w-full
+}
+
+.master-info-discription{
+    @apply text-[7px] leading-[10px] lg:text-[10px] lg:leading-[12px]
+}
+
+.buy-course{
+    @apply flex justify-between w-full items-center px-[14px] pb-[10px] h-fit
+}
+
+.course-video{
+    @apply flex justify-center items-center w-full min-h-[166.79px] lg:h-[249px] bg-cover rounded-tr-[20px]
+}
+
+.play-video{
+    @apply w-[74px] h-[74px] z-50 rounded-full border-spacing-1 border-gray-300 border-opacity-40 border-[10px] cursor-pointer 
+}
+
+.blur-card{
+    @apply opacity-50 blur-sm scale-95 transition-all duration-300;
+}
+
+.active-card{
+    @apply opacity-100 blur-0 scale-100
+}
+
+

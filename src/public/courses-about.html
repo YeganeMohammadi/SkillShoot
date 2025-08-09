@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skill shoot-course</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container relative flex flex-wrap justify-center ">
+
+            <div class="nav-icon -top-1">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.6875 10.1251C1.43886 10.1251 1.2004 10.0263 1.02459 9.8505C0.848772 9.67469 0.75 9.43623 0.75 9.18759V1.68945C0.75 1.44081 0.848772 1.20236 1.02459 1.02654C1.2004 0.850725 1.43886 0.751953 1.6875 0.751953H9.1875C9.43614 0.751953 9.6746 0.850725 9.85041 1.02654C10.0262 1.20236 10.125 1.44081 10.125 1.68945V9.18759C10.125 9.43623 10.0262 9.67469 9.85041 9.8505C9.6746 10.0263 9.43614 10.1251 9.1875 10.1251H1.6875ZM14.8125 10.1251C14.5639 10.1251 14.3254 10.0263 14.1496 9.8505C13.9738 9.67469 13.875 9.43623 13.875 9.18759V1.68945C13.875 1.44081 13.9738 1.20236 14.1496 1.02654C14.3254 0.850725 14.5639 0.751953 14.8125 0.751953H22.3106C22.5593 0.751953 22.7977 0.850725 22.9735 1.02654C23.1494 1.20236 23.2481 1.44081 23.2481 1.68945V9.18759C23.2481 9.43623 23.1494 9.67469 22.9735 9.8505C22.7977 10.0263 22.5593 10.1251 22.3106 10.1251H14.8125ZM1.6875 23.2501C1.43886 23.2501 1.2004 23.1513 1.02459 22.9755C0.848772 22.7997 0.75 22.5612 0.75 22.3126V14.8126C0.75 14.564 0.848772 14.3255 1.02459 14.1497C1.2004 13.9739 1.43886 13.8751 1.6875 13.8751H9.1875C9.43614 13.8751 9.6746 13.9739 9.85041 14.1497C10.0262 14.3255 10.125 14.564 10.125 14.8126V22.3126C10.125 22.5612 10.0262 22.7997 9.85041 22.9755C9.6746 23.1513 9.43614 23.2501 9.1875 23.2501H1.6875ZM14.8125 23.2501C14.5639 23.2501 14.3254 23.1513 14.1496 22.9755C13.9738 22.7997 13.875 22.5612 13.875 22.3126V14.8126C13.875 14.564 13.9738 14.3255 14.1496 14.1497C14.3254 13.9739 14.5639 13.8751 14.8125 13.8751H22.3106C22.5593 13.8751 22.7977 13.9739 22.9735 14.1497C23.1494 14.3255 23.2481 14.564 23.2481 14.8126V22.3126C23.2481 22.5612 23.1494 22.7997 22.9735 22.9755C22.7977 23.1513 22.5593 23.2501 22.3106 23.2501H14.8125Z"
+                        fill="white" />
+                </svg>
+            </div>
+            <div class="row flex-wrap justify-between items-center w-full mb-20">
+                <span class="header-logo-span">
+                    <img src="../images/logo/Skill Shoot.png" alt="logo" class="header-logo">
+                </span>
+
+                <div class="nav">
+                    <ul class="nav-ul">
+                        <li class="nav-li"><a href="index.html">home</a></li>
+                        <li class="nav-li text-white"><a href="courses-about.html">course</a></li>
+                        <li class="nav-li"><a href="#subscribe">subscribe</a></li>
+                        <li class="nav-li"><a href="index.html#about">about</a></li>
+                        <li class="nav-li"><a href="index.html#testemoni">testemoni</a></li>
+                    </ul>
+                    <div class="nav-login-registeration">
+                        <span class="nav-login-span">
+                            <a href="login.html" class="nav-login-link text-white">login</a>
+                        </span>
+                        <button class="orange-btn"><a href="register.html">register</a></button>
+                    </div>
+                </div>
+                <!--         close nav             -->
+            </div>
+
+            <img src="../images/footer-decor-left.png" alt="decore"
+                class="absolute scale-0 lg:scale-100 bottom-[23%] left-[10%] lg:bottom-[15%]">
+
+            <img src="../images/footer-decor-right.png" alt="decore"
+                class="absolute scale-0 lg:scale-90 top-[48%] right-0 lg:right-[44px]">
+
+            <div class="row flex-wrap justify-center lg:px-[110px] gap-5 mb-10">
+                <h1
+                    class="header-heading text-center text-[28px] md:text-[4.16vw] md:leading-[5.8vw] xl:text-[60px] xl:leading-[84px] w-full">
+                    Basics of learning team management</h1>
+                <p class="course-page-par-lg text-[20px] text-white/60 scale-0 lg:scale-100 w-[50%] text-center">let's
+                    learn the basics
+                    of team management, from the basics, and get various</p>
+                <p class="paragraph course-page-par text-white/60 lg:scale-0 text-center">we have created more than 100+
+                    materials
+                    on various things that will help your career, with mentors who are experienced in their fields.</p>
+            </div>
+
+            <div class="row course-header-bottom">
+                <div class="course-header-bottom-box">
+                    <span>Member Join</span>
+                    <span><b>120</b> Study</span>
+                </div>
+                <div class="course-header-bottom-box">
+                    <span>Lesson Level</span>
+                    <span><b>Bassic</b></span>
+                </div>
+                <div class="course-header-bottom-box">
+                    <span>Vertificate</span>
+                    <span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8C0 12.42 3.58 16 8 16C12.42 16 16 12.42 16 8C16 3.58 12.42 0 8 0ZM7.385 12.66H6.045L2.805 8.12L4.146 6.87L6.715 9.27L11.856 3.339L13.196 4.279L7.385 12.66Z"
+                                fill="white" />
+                        </svg>
+
+                    </span>
+                </div>
+                <div class="course-header-bottom-box">
+                    <span>Consultation</span>
+                    <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8 0C3.58 0 0 3.58 0 8C0 12.42 3.58 16 8 16C12.42 16 16 12.42 16 8C16 3.58 12.42 0 8 0ZM7.385 12.66H6.045L2.805 8.12L4.146 6.87L6.715 9.27L11.856 3.339L13.196 4.279L7.385 12.66Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!--   close header    -->
+
+    <main class="container flex flex-wrap gap-5">
+        <div class="row course-top">
+            <div class="course-top-left-col relative">
+                <img src="../images/courses/bi_play-circle-fill.png" alt="play video" class="play-video z-20">
+                <div class="course-top-left-col-gradiant"></div>
+            </div>
+
+            <div class="course-top-right-col">
+                <span class="text-body font-semibold text-[16px] flex items-center gap-3 ml-5 mt-5 lg:text-[20px]">
+                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.352539 12.7089V11.038H14.9731V12.7089H0.352539ZM0.352539 8.5318V6.86083H14.9731V8.5318H0.352539ZM0.352539 4.80711V0.28099C0.356057 0.236518 0.370678 0.19364 0.395062 0.156284C0.419446 0.118927 0.452814 0.0882863 0.492109 0.0671678C0.531404 0.0460494 0.57537 0.0351285 0.61998 0.0354055C0.664589 0.0356826 0.708416 0.0471488 0.747446 0.0687538L0.745862 0.0682258L5.22446 2.32416C5.26607 2.34402 5.30122 2.37522 5.32588 2.41417C5.35055 2.45312 5.36372 2.49824 5.36388 2.54434C5.36405 2.59045 5.3512 2.63566 5.32682 2.67478C5.30244 2.71391 5.26751 2.74536 5.22605 2.76552L5.22446 2.76605L0.745862 5.01987C0.706325 5.04018 0.662546 5.05085 0.618098 5.05102H0.607539C0.541912 5.05096 0.478825 5.02565 0.431352 4.98034C0.383878 4.93503 0.355658 4.87319 0.352539 4.80764L0.352539 4.80711ZM7.03586 3.51891V1.84795H14.9725V3.51891H7.03586Z"
+                            fill="#2C2C2C" />
+                    </svg>30 lessons
+                </span>
+
+                <div class="session-videos">
+                    <div class="session-video">
+                        <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.42041" y="0.587402" width="28.744" height="28.744" rx="14.372"
+                                    fill="#CB8461" />
+                                <path d="M11.1995 11.3665H13.5948V18.5524H11.1995V11.3665Z" fill="white" />
+                                <path d="M18.3856 18.5524H15.9902V11.3665H18.3856V18.5524Z" fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M27.9668 14.9595C27.9668 22.2353 22.0683 28.1338 14.7925 28.1338C7.51666 28.1338 1.61816 22.2353 1.61816 14.9595C1.61816 7.68366 7.51666 1.78516 14.7925 1.78516C22.0683 1.78516 27.9668 7.68366 27.9668 14.9595ZM25.5715 14.9595C25.5715 16.375 25.2927 17.7766 24.751 19.0844C24.2093 20.3922 23.4153 21.5804 22.4144 22.5814C21.4134 23.5823 20.2252 24.3763 18.9174 24.918C17.6097 25.4597 16.208 25.7385 14.7925 25.7385C13.377 25.7385 11.9753 25.4597 10.6675 24.918C9.35977 24.3763 8.17151 23.5823 7.17059 22.5814C6.16966 21.5804 5.37569 20.3922 4.834 19.0844C4.2923 17.7766 4.01349 16.375 4.01349 14.9595C4.01349 12.1007 5.14913 9.35903 7.17059 7.33758C9.19204 5.31613 11.9337 4.18049 14.7925 4.18049C17.6512 4.18049 20.3929 5.31613 22.4144 7.33758C24.4358 9.35903 25.5715 12.1007 25.5715 14.9595Z"
+                                    fill="#CB8461" />
+                            </svg>Intro
+                        </span>
+                        <span class="paragraph">3 Min</span>
+                    </div>
+                    <div class="session-video">
+                        <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.7923 2.29688C7.84769 2.29688 2.2168 7.92777 2.2168 14.8724C2.2168 21.8169 7.84769 27.4478 14.7923 27.4478C21.7369 27.4478 27.3678 21.8169 27.3678 14.8724C27.3678 7.92777 21.7369 2.29688 14.7923 2.29688ZM18.8372 15.066L12.7067 19.5264C12.673 19.5506 12.6334 19.565 12.5922 19.5681C12.5509 19.5712 12.5096 19.5628 12.4727 19.544C12.4359 19.5251 12.4049 19.4965 12.3833 19.4612C12.3617 19.4259 12.3502 19.3853 12.3502 19.344V10.4288C12.35 10.3874 12.3614 10.3467 12.383 10.3113C12.4045 10.2758 12.4355 10.2471 12.4724 10.2282C12.5093 10.2093 12.5508 10.201 12.5921 10.2042C12.6334 10.2074 12.6731 10.222 12.7067 10.2464L18.8372 14.7039C18.8662 14.7244 18.8898 14.7516 18.9061 14.7831C18.9224 14.8146 18.9309 14.8495 18.9309 14.885C18.9309 14.9205 18.9224 14.9554 18.9061 14.9869C18.8898 15.0184 18.8662 15.0456 18.8372 15.066V15.066Z"
+                                    fill="#245D51" />
+                            </svg>Basic introduction...
+                        </span>
+                        <span class="paragraph">10 Min</span>
+                    </div>
+                    <div class="session-video">
+                        <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                <path
+                                    d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                    fill="#2C2C2C" />
+                            </svg>Get to know tools...
+                        </span>
+                        <span class="paragraph">9 Min</span>
+                    </div>
+                    <div class="session-video">
+                        <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                <path
+                                    d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                    fill="#2C2C2C" />
+                            </svg>what is timeline
+                        </span>
+                        <span class="paragraph">10 Min</span>
+                    </div>
+                    <div class="session-video">
+                        <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                <path
+                                    d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                    fill="#2C2C2C" />
+                            </svg>what is timeline
+                        </span>
+                        <span class="paragraph">10 Min</span>
+                    </div>
+
+                </div>
+
+                <button class="green-btn w-full sticky"><a href="buy-class.html">Join Class Now</a></button>
+            </div>
+        </div>
+
+        <div class="row course-bottom">
+            <div class="course-bottom-left-col">
+                <div class="course-menue">
+                    <button class="white-btn white-btn-actived" id="course-menu-about">about</button>
+                    <button class="white-btn" id="course-menu-learned">learned</button>
+                    <button class="white-btn" id="course-menu-tools">tools used</button>
+                    <button class="white-btn" id="course-menu-testemoni">they say</button>
+
+                </div>
+                <section class="overflow-hidden w-full">
+                    <div class="about-course" id="about-course">
+                        <h2 class="heading2 text-left mt-10">What do you need to know?</h2>
+                        <p class="paragraph text-left">
+                            Project Management is the application of knowledge, skills, tools and techniques to project
+                            activities in order to meet project requirements. And all must be managed expertly to
+                            deliver the results on time, within budget, learning and integration that the organization
+                            needs.
+                            <br>
+                            <br>
+                            all the lessons that are here will be supported directly by the mentor so that it is easier
+                            for you to understand the lesson
+                        </p>
+                        <h2 class="heading2 text-left mt-10">Points to be Studied</h2>
+                        <div class="flex flex-wrap gap-5 lg:gap-10">
+                            <span class="text-[#808080] text-[12px] lg:text-[18px]">
+                                <i class="bi bi-check-square-fill text-[#245D51] font-bold"></i>&nbsp;&nbsp;&nbsp;Basics
+                                of making a to-do list in trello
+                            </span>
+                            <span class="text-[#808080] text-[12px] lg:text-[18px]">
+                                <i class="bi bi-check-square-fill text-[#245D51] font-bold"></i>&nbsp;&nbsp;&nbsp;How to
+                                create and define a workflow
+                            </span>
+                            <span class="text-[#808080] text-[12px] lg:text-[18px]">
+                                <i class="bi bi-check-square-fill text-[#245D51] font-bold"></i>&nbsp;&nbsp;&nbsp;Know
+                                kanban for management
+                            </span>
+                            <span class="text-[#808080] text-[12px] lg:text-[18px]">
+                                <i class="bi bi-check-square-fill text-[#245D51] font-bold"></i>&nbsp;&nbsp;&nbsp;Trello
+                                app and scheduling
+                            </span>
+                            <span class="text-[#808080] text-[12px] lg:text-[18px]">
+                                <i class="bi bi-check-square-fill text-[#245D51] font-bold"></i>&nbsp;&nbsp;&nbsp;How to
+                                direct the team
+                            </span>
+                        </div>
+                    </div>
+                    <div class="w-full hidden" id="course-testemoni">
+                        <h2 class="heading2 text-left">What do our members say?</h2>
+                        <p class="paragraph text-left">This is a review from our members who have joined the course</p>
+                        <div>
+                            <div class="py-8 flex flex-wrap gap-4 lg:gap-2 xl:gap-3">
+                                <div class="course-testemoni-card">
+                                    <span class="w-full">
+                                        <img src="../images/testemoni/av1.png" alt="user image"
+                                            class="testemonial-user-avatar mx-auto">
+                                    </span>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                    </div>
+
+                                    <span class="w-full text-center text-[18px] lg:text-[24px] text-body">Jason
+                                        Bay</span>
+                                    <p class="paragraph text-center">I am quite satisfied, because the skills I want or
+                                        dream of
+                                        can really
+                                        be mastered</p>
+                                </div>
+                                <div class="course-testemoni-card">
+                                    <span class="w-full">
+                                        <img src="../images/testemoni/av4.png" alt="user image"
+                                            class="testemonial-user-avatar mx-auto">
+                                    </span>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                    </div>
+
+                                    <span class="w-full text-center text-[18px] lg:text-[24px] text-body">Nany
+                                        Brugman</span>
+                                    <p class="paragraph text-center">I am quite satisfied, because the skills I want or
+                                        dream of
+                                        can really
+                                        be mastered</p>
+                                </div>
+                                <div class="course-testemoni-card">
+                                    <span class="w-full">
+                                        <img src="../images/testemoni/av3.png" alt="user image"
+                                            class="testemonial-user-avatar mx-auto">
+                                    </span>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                    </div>
+
+                                    <span class="w-full text-center text-[18px] lg:text-[24px] text-body">Alexa
+                                        Nowan</span>
+                                    <p class="paragraph text-center">I am quite satisfied, because the skills I want or
+                                        dream of
+                                        can really
+                                        be mastered</p>
+                                </div>
+                                <div class="course-testemoni-card">
+                                    <span class="w-full">
+                                        <img src="../images/testemoni/av5.png" alt="user image"
+                                            class="testemonial-user-avatar mx-auto">
+                                    </span>
+                                    <div class="rating">
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                        &nbsp;
+                                        <i class="bi bi-star-fill text-[#FF9100] text-sm"></i>
+                                    </div>
+
+                                    <span class="w-full text-center text-[18px] lg:text-[24px] text-body">Alexa
+                                        Nowan</span>
+                                    <p class="paragraph text-center">I am quite satisfied, because the skills I want or
+                                        dream of
+                                        can really
+                                        be mastered</p>
+                                </div>
+
+                            </div>
+                            <div class="my-pagin">
+                                <i class="bi bi-chevron-left text-body font-semibold"></i>
+                                <div class="my-page-num">1</div>
+                                <div class="my-page-num">2</div>
+                                <div class="my-page-num">3</div>
+                                <div class="my-page-num items-start">...</div>
+                                <i class="bi bi-chevron-right text-body font-semibold"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="learned-course hidden" id="learned-course">
+                        <h2 class="heading2 text-left mt-10">What will you learn?</h2>
+                        <p class="paragraph text-left w-[61%]">
+                            this is a litus of material that you will learn, we hope this will help your career to be
+                            better.
+                        </p>
+
+                        <div class="course-top-right-col w-full h-auto pb-5 mb-10">
+                            <span class="text-body text-[16px] flex items-center gap-3 ml-5 mt-5 lg:text-[28px]">
+                                <i
+                                    class="bi bi-1-circle-fill text-primary text-bold text-[29px] lg:text-[65px]"></i>Basics
+                                of management
+                            </span>
+                            <div class="w-full flex justify-center">
+                                <div class="line w-[95%]"></div>
+                            </div>
+
+                            <div class="session-videos h-auto">
+                                <div class="session-video">
+                                    <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.7923 2.29688C7.84769 2.29688 2.2168 7.92777 2.2168 14.8724C2.2168 21.8169 7.84769 27.4478 14.7923 27.4478C21.7369 27.4478 27.3678 21.8169 27.3678 14.8724C27.3678 7.92777 21.7369 2.29688 14.7923 2.29688ZM18.8372 15.066L12.7067 19.5264C12.673 19.5506 12.6334 19.565 12.5922 19.5681C12.5509 19.5712 12.5096 19.5628 12.4727 19.544C12.4359 19.5251 12.4049 19.4965 12.3833 19.4612C12.3617 19.4259 12.3502 19.3853 12.3502 19.344V10.4288C12.35 10.3874 12.3614 10.3467 12.383 10.3113C12.4045 10.2758 12.4355 10.2471 12.4724 10.2282C12.5093 10.2093 12.5508 10.201 12.5921 10.2042C12.6334 10.2074 12.6731 10.222 12.7067 10.2464L18.8372 14.7039C18.8662 14.7244 18.8898 14.7516 18.9061 14.7831C18.9224 14.8146 18.9309 14.8495 18.9309 14.885C18.9309 14.9205 18.9224 14.9554 18.9061 14.9869C18.8898 15.0184 18.8662 15.0456 18.8372 15.066V15.066Z"
+                                                fill="#245D51" />
+                                        </svg>Intro
+                                    </span>
+                                    <span class="paragraph">3 Min</span>
+                                </div>
+                                <div class="session-video">
+                                    <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                            <path
+                                                d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                                fill="#2C2C2C" />
+                                        </svg>Basic introduction to management
+                                    </span>
+                                    <span class="paragraph">10 Min</span>
+                                </div>
+                                <div class="session-video">
+                                    <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                            <path
+                                                d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                                fill="#2C2C2C" />
+                                        </svg>Get to know the tools for management
+                                    </span>
+                                    <span class="paragraph">9 Min</span>
+                                </div>
+                                <div class="session-video">
+                                    <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                            <path
+                                                d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                                fill="#2C2C2C" />
+                                        </svg>what is timeline
+                                    </span>
+                                    <span class="paragraph">10 Min</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course-top-right-col w-full h-auto pb-5">
+                            <span class="text-body text-[16px] flex items-center gap-3 ml-5 mt-5 lg:text-[28px]">
+                                <i
+                                    class="bi bi-2-circle-fill text-primary text-bold text-[29px] lg:text-[65px]"></i>Learn
+                                trello for management
+                            </span>
+                            <div class="w-full flex justify-center">
+                                <div class="line w-[95%]"></div>
+                            </div>
+
+                            <div class="session-videos h-auto">
+                                <div class="session-video">
+                                    <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                            <path
+                                                d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                                fill="#2C2C2C" />
+                                        </svg>what is trello ?
+                                    </span>
+                                    <span class="paragraph">5 Min</span>
+                                </div>
+                                <div class="session-video">
+                                    <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                            <path
+                                                d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                                fill="#2C2C2C" />
+                                        </svg>Event set tasks with trello
+                                    </span>
+                                    <span class="paragraph">5 Min</span>
+                                </div>
+                                <div class="session-video">
+                                    <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                            <path
+                                                d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                                fill="#2C2C2C" />
+                                        </svg>How to invite a team on trello
+                                    </span>
+                                    <span class="paragraph">5 Min</span>
+                                </div>
+                                <div class="session-video">
+                                    <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                            <path
+                                                d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                                fill="#2C2C2C" />
+                                        </svg>How to add cards, delete, edit and add files
+                                    </span>
+                                    <span class="paragraph">5 Min</span>
+                                </div>
+                                <div class="session-video">
+                                    <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                            <path
+                                                d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                                fill="#2C2C2C" />
+                                        </svg>what is drag and drop ?
+                                    </span>
+                                    <span class="paragraph">5 Min</span>
+                                </div>
+                                <div class="session-video">
+                                    <span class="text-body text-[14px] lg:text-[18px] flex items-center gap-3">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <ellipse cx="14.7924" cy="14.7856" rx="14.372" ry="14.372" fill="#DDDDDD" />
+                                            <path
+                                                d="M17.9954 13.2253V11.9112C17.9954 10.0716 16.55 8.62622 14.7104 8.62622C12.8708 8.62622 11.4254 10.0716 11.4254 11.9112V13.2253C10.3085 13.2253 9.45435 14.0794 9.45435 15.1963V19.7953C9.45435 20.9122 10.3085 21.7663 11.4254 21.7663H17.9954C19.1123 21.7663 19.9664 20.9122 19.9664 19.7953V15.1963C19.9664 14.0794 19.1123 13.2253 17.9954 13.2253ZM12.7394 11.9112C12.7394 10.7943 13.5935 9.94023 14.7104 9.94023C15.8273 9.94023 16.6814 10.7943 16.6814 11.9112V13.2253H12.7394V11.9112ZM15.4331 17.4958L15.3674 17.5615V18.4813C15.3674 18.8755 15.1046 19.1383 14.7104 19.1383C14.3162 19.1383 14.0534 18.8755 14.0534 18.4813V17.5615C13.6592 17.1673 13.5935 16.576 13.9877 16.1818C14.3819 15.7876 14.9732 15.7219 15.3674 16.1161C15.7616 16.4446 15.8273 17.1016 15.4331 17.4958Z"
+                                                fill="#2C2C2C" />
+                                        </svg>How to label in trello
+                                    </span>
+                                    <span class="paragraph">5 Min</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="w-full hidden" id="course-tools">
+                        <h2 class="heading2 text-left">Material support tool</h2>
+                        <p class="paragraph text-left">These are some of the supports that you can download and install
+                            or
+                            visit to take this class</p>
+                        <div class="tool-cards px-[46px] lg:px-0 py-8 flex flex-wrap gap-5">
+                            <div class="tool-card">
+                                <div class="tool-card-logo">
+                                    <img src="../images/tools-page/figma-logo.png" alt="figma logo">
+                                </div>
+                                <div class="w-full">
+                                    <span class="tool-card-span">figma</span>
+                                    <p class="paragraph text-left">
+                                        Free design software
+                                    </p>
+                                </div>
+
+                                <button class="tool-card-button">
+                                    Download Now
+                                </button>
+                            </div>
+                            <div class="tool-card">
+                                <div class="tool-card-logo">
+                                    <img src="../images/tools-page/trello-logo.png" alt="figma logo">
+                                </div>
+                                <div class="w-full">
+                                    <span class="tool-card-span">Trello</span>
+                                    <p class="paragraph text-left">
+                                        Management software </p>
+                                </div>
+
+                                <button class="tool-card-button">
+                                    Visit Website
+                                </button>
+                            </div>
+                            <div class="tool-card">
+                                <div class="tool-card-logo">
+                                    <img src="../images/tools-page/word-logo.png" alt="figma logo">
+                                </div>
+                                <div class="w-full">
+                                    <span class="tool-card-span">word</span>
+                                    <p class="paragraph text-left">
+                                        Free Software
+                                    </p>
+                                </div>
+
+                                <button class="tool-card-button">
+                                    Download Now
+                                </button>
+                            </div>
+                            <div class="tool-card">
+                                <div class="tool-card-logo">
+                                    <img src="../images/tools-page/whimsical-logo.png" alt="figma logo">
+                                </div>
+                                <div class="w-full">
+                                    <span class="tool-card-span">whimsical</span>
+                                    <p class="paragraph text-left">
+                                        Management software
+                                    </p>
+                                </div>
+
+                                <button class="tool-card-button">
+                                    visit website
+                                </button>
+                            </div>
+                            <div class="tool-card">
+                                <div class="tool-card-logo">
+                                    <img src="../images/tools-page/excel-logo.png" alt="figma logo">
+                                </div>
+                                <div class="w-full">
+                                    <span class="tool-card-span">exel</span>
+                                    <p class="paragraph text-left">
+                                        Free Software
+                                    </p>
+                                </div>
+
+                                <button class="tool-card-button">
+                                    Download Now
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="course-bottom-right-col">
+                <div class="row mx-0 justify-around items-end w-full">
+                    <div>
+                        <span class="w-full flex justify-center">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M37.5 37.5H27.5V5H37.5V37.5Z" fill="#808080" />
+                                <path d="M25 37.5H15V15H25V37.5Z" fill="#808080" />
+                                <path d="M12.5 37.5H2.5V22.5H12.5V37.5Z" fill="#CB8461" />
+                            </svg>
+
+                        </span>
+                        <span class="text-[14px] lg:text-[16px] font-semibold">Beginner level</span>
+                    </div>
+                    <div>
+                        <span class="w-full flex justify-center text-[#245D51] font-bold text-[20px] lg:text-[25px]">
+                            177
+                        </span>
+                        <span class="text-[14px] lg:text-[16px] font-semibold">Beginner level</span>
+                    </div>
+                </div>
+                <div class="master-profile">
+                    <div class="master-profile-img relative">
+                        <img src="../images/courses-page/avatar1.png" alt="profile image">
+                        <div></div>
+                    </div>
+                    <div class="master-name">
+                        <h4>Jone Owel</h4>
+                        <span>IT
+                            manager</span>
+                    </div>
+                </div>
+                <p class="paragraph text-left">
+                    Hello I'm Jhone Owel an IT Manager who has worked for more than 5 years, and now I want to share my
+                    experience with you all.
+                </p>
+                <div class="flex gap-4 items-center mb-3">
+                    <a href="profile-course.html"><button
+                            class="green-btn rounded-[10px] py-[10px] text-[12px] lg:text-[14px] flex shrink-0 w-fit gap-3 items-center">
+                            See Full Profile
+                            <svg width="12" height="13" viewBox="0 0 12 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 1.5C2 0.947715 2.44772 0.5 3 0.5L11 0.500001C11.5523 0.500001 12 0.947716 12 1.5V9.5C12 10.0523 11.5523 10.5 11 10.5C10.4477 10.5 10 10.0523 10 9.5V3.91421L1.70711 12.2071C1.31658 12.5976 0.683417 12.5976 0.292893 12.2071C-0.0976311 11.8166 -0.0976311 11.1834 0.292893 10.7929L8.58579 2.5L3 2.5C2.44772 2.5 2 2.05228 2 1.5Z"
+                                    fill="white" />
+                            </svg>
+                        </button></a>
+
+                    <div class="flex gap-4">
+                        <i class="bi bi-github text-secondry text-xl"></i>
+                        <i class="bi bi-linkedin text-secondry text-xl"></i>
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M25.6829 13.9697C25.6619 7.53904 20.4411 2.33337 14.0093 2.33337C7.57509 2.33337 2.35542 7.53904 2.33442 13.9697L2.33325 13.9394V14.07L2.33442 14.0432C2.35425 20.475 7.57392 25.683 14.0093 25.683C20.4422 25.683 25.6619 20.4774 25.6829 14.0467L25.6841 14.077V13.9394L25.6829 13.9697ZM10.8278 19.3165C7.90058 19.3165 5.52175 16.9377 5.52175 14.0094C5.52175 11.081 7.90058 8.70221 10.8278 8.70221C12.2628 8.70221 13.4621 9.22837 14.3814 10.0882L12.8706 11.5524C12.4914 11.1919 11.8218 10.7672 10.8278 10.7672C9.07192 10.7672 7.63925 12.2267 7.63925 14.0164C7.63925 15.8049 9.07308 17.2644 10.8278 17.2644C12.8601 17.2644 13.6091 15.8574 13.7468 15.0244H10.8254V13.0434H15.7896C15.8666 13.377 15.9237 13.6897 15.9237 14.1307C15.9237 17.1605 13.8914 19.3165 10.8278 19.3165ZM23.0287 14.539H20.9066V16.6612H19.3152V14.539H17.1919V12.9477H19.3152V10.8244H20.9066V12.9477H23.0287V14.539Z"
+                                fill="#CB8461" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="line w-full"></div>
+                <div class="flex flex-wrap">
+                    <h3 class="text-[18px] lg:text-[20px] font-semibold mb-2">Related Skills</h3>
+                    <div class="related-skills flex flex-wrap gap-1 lg:gap-4">
+                        <span class="skills-span">Technology</span>
+                        <span class="skills-span bg-secondry text-white border-white">management</span>
+                        <span class="skills-span">Trello</span>
+                        <span class="skills-span">timeline</span>
+                        <span class="skills-span">teamwork</span>
+                        <span class="skills-span">workflow</span>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- close main -->
+
+
+    <section class="container popular-courses relative">
+        <h2 class="heading2 text-white w-full mb-0">Popular courses of the week</h2>
+        <p class="paragraph text-white/60 text-center lg:w-3/12">List of the most popular lists that are often studied
+            by our members</p>
+        <div class="row courses-scroll-box scrollbar-hide" id="courses-scroll-box">
+
+            <div class="course-card relative">
+                <div class="course-video bg-[url(../images/courses/pic1.png)] ">
+                    <img src="../images/courses/bi_play-circle-fill.png" alt="play" class="play-video">
+                </div>
+                <div class="course-discriotion w-full">
+                    <h3 class="course-title">Basics of learning team management</h3>
+                    <div class="w-full flex justify-between">
+                        <div class="master-profile flex gap-2">
+                            <img src="../images/courses/avatar1.png" alt="profile image" class="w-[30px] h-[30px]">
+                            <div class="master-info">
+                                <h4 class="master-info-name">Jone Owel</h4>
+                                <span class="paragraph master-info-discription">CEO Skill Shoot</span>
+                            </div>
+                        </div>
+                        <div class="participant flex gap-2">
+                            <svg width="30px" height="30px" viewBox="0 0 27 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.5 0.916656C12.0578 0.916656 10.6481 1.34431 9.44897 2.14552C8.24986 2.94674 7.31527 4.08555 6.76338 5.41792C6.21149 6.7503 6.06709 8.21641 6.34844 9.63086C6.62979 11.0453 7.32426 12.3446 8.34401 13.3643C9.36377 14.3841 10.663 15.0785 12.0775 15.3599C13.4919 15.6412 14.958 15.4968 16.2904 14.9449C17.6228 14.3931 18.7616 13.4585 19.5628 12.2594C20.364 11.0602 20.7917 9.65048 20.7917 8.20832C20.7917 6.27445 20.0234 4.41979 18.656 3.05234C17.2885 1.68488 15.4339 0.916656 13.5 0.916656ZM13.5 12.5833C12.6347 12.5833 11.7888 12.3267 11.0694 11.846C10.3499 11.3653 9.78916 10.682 9.45803 9.88256C9.12689 9.08314 9.04025 8.20347 9.20906 7.3548C9.37787 6.50614 9.79455 5.72659 10.4064 5.11473C11.0183 4.50288 11.7978 4.0862 12.6465 3.91739C13.4951 3.74858 14.3748 3.83522 15.1742 4.16635C15.9737 4.49748 16.6569 5.05824 17.1377 5.7777C17.6184 6.49717 17.875 7.34303 17.875 8.20832C17.875 9.36865 17.4141 10.4814 16.5936 11.3019C15.7731 12.1224 14.6603 12.5833 13.5 12.5833ZM26.625 28.625V27.1667C26.625 24.4592 25.5495 21.8627 23.635 19.9483C21.7206 18.0338 19.1241 16.9583 16.4167 16.9583H10.5833C7.87592 16.9583 5.27939 18.0338 3.36495 19.9483C1.45052 21.8627 0.375 24.4592 0.375 27.1667V28.625H3.29167V27.1667C3.29167 25.2328 4.05989 23.3781 5.42735 22.0107C6.7948 20.6432 8.64946 19.875 10.5833 19.875H16.4167C18.3505 19.875 20.2052 20.6432 21.5727 22.0107C22.9401 23.3781 23.7083 25.2328 23.7083 27.1667V28.625H26.625Z"
+                                    fill="#245D51" />
+                            </svg>
+                            <div class="master-info">
+                                <h4 class="master-info-name">120</h4>
+                                <span class="paragraph master-info-discription ">Participant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy-course">
+                    <button class="green-btn text-[12px] ">Buy Now</button>
+                    <span class="paragraph master-info-discription"><span
+                            class="text-[16px] font-semibold text-body">$120</span> /25 Video</span>
+                </div>
+
+            </div>
+            <div class="course-card relative">
+                <div class="course-video bg-[url(../images/courses/pic2.png)]">
+                    <img src="../images/courses/bi_play-circle-fill.png" alt="play" class="play-video">
+                </div>
+                <div class="course-discriotion w-full">
+                    <h3 class="course-title">Learn basic database structure</h3>
+                    <div class="w-full flex justify-between">
+                        <div class="master-profile flex gap-2">
+                            <img src="../images/courses/avatar2.png" alt="profile image" class="w-[30px] h-[30px]">
+                            <div class="master-info">
+                                <h4 class="master-info-name">Roynaldo Jr</h4>
+                                <span class="paragraph master-info-discription">Data Science</span>
+                            </div>
+                        </div>
+                        <div class="participant flex gap-2">
+                            <svg width="30px" height="30px" viewBox="0 0 27 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.5 0.916656C12.0578 0.916656 10.6481 1.34431 9.44897 2.14552C8.24986 2.94674 7.31527 4.08555 6.76338 5.41792C6.21149 6.7503 6.06709 8.21641 6.34844 9.63086C6.62979 11.0453 7.32426 12.3446 8.34401 13.3643C9.36377 14.3841 10.663 15.0785 12.0775 15.3599C13.4919 15.6412 14.958 15.4968 16.2904 14.9449C17.6228 14.3931 18.7616 13.4585 19.5628 12.2594C20.364 11.0602 20.7917 9.65048 20.7917 8.20832C20.7917 6.27445 20.0234 4.41979 18.656 3.05234C17.2885 1.68488 15.4339 0.916656 13.5 0.916656ZM13.5 12.5833C12.6347 12.5833 11.7888 12.3267 11.0694 11.846C10.3499 11.3653 9.78916 10.682 9.45803 9.88256C9.12689 9.08314 9.04025 8.20347 9.20906 7.3548C9.37787 6.50614 9.79455 5.72659 10.4064 5.11473C11.0183 4.50288 11.7978 4.0862 12.6465 3.91739C13.4951 3.74858 14.3748 3.83522 15.1742 4.16635C15.9737 4.49748 16.6569 5.05824 17.1377 5.7777C17.6184 6.49717 17.875 7.34303 17.875 8.20832C17.875 9.36865 17.4141 10.4814 16.5936 11.3019C15.7731 12.1224 14.6603 12.5833 13.5 12.5833ZM26.625 28.625V27.1667C26.625 24.4592 25.5495 21.8627 23.635 19.9483C21.7206 18.0338 19.1241 16.9583 16.4167 16.9583H10.5833C7.87592 16.9583 5.27939 18.0338 3.36495 19.9483C1.45052 21.8627 0.375 24.4592 0.375 27.1667V28.625H3.29167V27.1667C3.29167 25.2328 4.05989 23.3781 5.42735 22.0107C6.7948 20.6432 8.64946 19.875 10.5833 19.875H16.4167C18.3505 19.875 20.2052 20.6432 21.5727 22.0107C22.9401 23.3781 23.7083 25.2328 23.7083 27.1667V28.625H26.625Z"
+                                    fill="#245D51" />
+                            </svg>
+                            <div class="master-info">
+                                <h4 class="master-info-name">55</h4>
+                                <span class="paragraph master-info-discription ">Participant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy-course">
+                    <button class="green-btn text-[12px] ">Buy Now</button>
+                    <span class="paragraph master-info-discription"><span
+                            class="text-[16px] font-semibold text-body">$180</span> /20 Video</span>
+                </div>
+
+            </div>
+            <div class="course-card relative">
+                <div class="course-video bg-[url(../images/courses/pic3.png)]">
+                    <img src="../images/courses/bi_play-circle-fill.png" alt="play" class="play-video">
+                </div>
+                <div class="course-discriotion w-full">
+                    <h3 class="course-title">Create dynamic website with basic php</h3>
+                    <div class="w-full flex justify-between">
+                        <div class="master-profile flex gap-2">
+                            <img src="../images/courses/avatar3.png" alt="profile image" class="w-[30px] h-[30px]">
+                            <div class="master-info">
+                                <h4 class="master-info-name">Markus Low</h4>
+                                <span class="paragraph master-info-discription">Programer</span>
+                            </div>
+                        </div>
+                        <div class="participant flex gap-2">
+                            <svg width="30px" height="30px" viewBox="0 0 27 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.5 0.916656C12.0578 0.916656 10.6481 1.34431 9.44897 2.14552C8.24986 2.94674 7.31527 4.08555 6.76338 5.41792C6.21149 6.7503 6.06709 8.21641 6.34844 9.63086C6.62979 11.0453 7.32426 12.3446 8.34401 13.3643C9.36377 14.3841 10.663 15.0785 12.0775 15.3599C13.4919 15.6412 14.958 15.4968 16.2904 14.9449C17.6228 14.3931 18.7616 13.4585 19.5628 12.2594C20.364 11.0602 20.7917 9.65048 20.7917 8.20832C20.7917 6.27445 20.0234 4.41979 18.656 3.05234C17.2885 1.68488 15.4339 0.916656 13.5 0.916656ZM13.5 12.5833C12.6347 12.5833 11.7888 12.3267 11.0694 11.846C10.3499 11.3653 9.78916 10.682 9.45803 9.88256C9.12689 9.08314 9.04025 8.20347 9.20906 7.3548C9.37787 6.50614 9.79455 5.72659 10.4064 5.11473C11.0183 4.50288 11.7978 4.0862 12.6465 3.91739C13.4951 3.74858 14.3748 3.83522 15.1742 4.16635C15.9737 4.49748 16.6569 5.05824 17.1377 5.7777C17.6184 6.49717 17.875 7.34303 17.875 8.20832C17.875 9.36865 17.4141 10.4814 16.5936 11.3019C15.7731 12.1224 14.6603 12.5833 13.5 12.5833ZM26.625 28.625V27.1667C26.625 24.4592 25.5495 21.8627 23.635 19.9483C21.7206 18.0338 19.1241 16.9583 16.4167 16.9583H10.5833C7.87592 16.9583 5.27939 18.0338 3.36495 19.9483C1.45052 21.8627 0.375 24.4592 0.375 27.1667V28.625H3.29167V27.1667C3.29167 25.2328 4.05989 23.3781 5.42735 22.0107C6.7948 20.6432 8.64946 19.875 10.5833 19.875H16.4167C18.3505 19.875 20.2052 20.6432 21.5727 22.0107C22.9401 23.3781 23.7083 25.2328 23.7083 27.1667V28.625H26.625Z"
+                                    fill="#245D51" />
+                            </svg>
+                            <div class="master-info">
+                                <h4 class="master-info-name">98</h4>
+                                <span class="paragraph master-info-discription ">Participant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy-course">
+                    <button class="green-btn text-[12px] ">Buy Now</button>
+                    <span class="paragraph master-info-discription"><span
+                            class="text-[16px] font-semibold text-body">$135</span> /20 Video</span>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="absolute w-full flex justify-between px-10 top-[58%]">
+
+            <span class="scroll-arrows border-[5px] scale-125 cursor-pointer" id="scroll-left-arrow">
+                <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.08331 10.8447L21.625 10.8447" stroke="#0C111F" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path
+                        d="M9.00003 19.8445C9.00001 15.9874 1.00003 10.8445 1.00003 10.8445C1.00003 10.8445 9.00003 5.70165 9.00003 1.84448"
+                        stroke="#0C111F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </span>
+
+            <span class="scroll-arrows bg-primary border-[5px] border-white scale-125 cursor-pointer"
+                id="scroll-right-arrow">
+                <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.9167 10.8447L1.375 10.8447" stroke="white" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M14 19.8445C14 15.9874 22 10.8445 22 10.8445C22 10.8445 14 5.70165 14 1.84448"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+            </span>
+
+        </div>
+
+        <img src="../images/discount/Group 575.png" alt="decor"
+            class="absolute scale-0 md:scale-100 left-[16%] top-[16%]">
+        <img src="../images/discount/Group 577.png" alt="decor"
+            class="absolute scale-0 md:scale-100 top-[12%] right-[16%]">
+    </section>
+    <!--------------- end popular-courses ---------------------->
+
+
+    <section class="container subscribe mt-10" id="subscribe">
+        <h2 class="heading2 w-full">
+            <span>Subscribe</span> with us now
+        </h2>
+        <p class="paragraph lg:w-5/12 text-center mx-[48px] mb-20">
+            by subscribing now you will be able to access the material easily and cheaply, so you will be very efficient
+            and benefit
+        </p>
+        <div class="row subscribe-plans">
+            <div class="subscribe-plan">
+                <span class="paragraph subscribe-plan-cost">
+                    <span class="text-[18px] font-bold text-body">$50</span>/ 1 month
+                </span>
+                <h3 class="subscribe-title">Base</h3>
+                <p class="paragraph text-left">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <div class="subscribe-plan-advantages">
+                    <span class="subscribe-plan-advantage"><span>
+                            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.82938 1.94168L4.55125 7.53873C4.44922 7.66924 4.29708 7.75475 4.12902 7.77605C3.96095 7.79735 3.79105 7.75266 3.6575 7.65201L0.602501 5.29726C0.332917 5.08927 0.289265 4.70998 0.505001 4.45008C0.720737 4.19018 1.11417 4.14809 1.38375 4.35608L3.93125 6.32099L7.82313 1.22886C7.95075 1.04424 8.17329 0.942161 8.40239 0.963163C8.63149 0.984164 8.83008 1.12485 8.91932 1.32935C9.00856 1.53386 8.97401 1.7691 8.82938 1.94168Z"
+                                    fill="#245D51" />
+                            </svg>
+                        </span> Access all videos</span>
+                    <span class="subscribe-plan-advantage"><span>
+                            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.82938 1.94168L4.55125 7.53873C4.44922 7.66924 4.29708 7.75475 4.12902 7.77605C3.96095 7.79735 3.79105 7.75266 3.6575 7.65201L0.602501 5.29726C0.332917 5.08927 0.289265 4.70998 0.505001 4.45008C0.720737 4.19018 1.11417 4.14809 1.38375 4.35608L3.93125 6.32099L7.82313 1.22886C7.95075 1.04424 8.17329 0.942161 8.40239 0.963163C8.63149 0.984164 8.83008 1.12485 8.91932 1.32935C9.00856 1.53386 8.97401 1.7691 8.82938 1.94168Z"
+                                    fill="#245D51" />
+                            </svg>
+                        </span>Get Certificate</span>
+                    <span class="subscribe-plan-advantage"><span>
+                            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.82938 1.94168L4.55125 7.53873C4.44922 7.66924 4.29708 7.75475 4.12902 7.77605C3.96095 7.79735 3.79105 7.75266 3.6575 7.65201L0.602501 5.29726C0.332917 5.08927 0.289265 4.70998 0.505001 4.45008C0.720737 4.19018 1.11417 4.14809 1.38375 4.35608L3.93125 6.32099L7.82313 1.22886C7.95075 1.04424 8.17329 0.942161 8.40239 0.963163C8.63149 0.984164 8.83008 1.12485 8.91932 1.32935C9.00856 1.53386 8.97401 1.7691 8.82938 1.94168Z"
+                                    fill="#245D51" />
+                            </svg>
+                        </span>Chat support</span>
+                    <span class="subscribe-plan-advantage"><span>
+                            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.82938 1.94168L4.55125 7.53873C4.44922 7.66924 4.29708 7.75475 4.12902 7.77605C3.96095 7.79735 3.79105 7.75266 3.6575 7.65201L0.602501 5.29726C0.332917 5.08927 0.289265 4.70998 0.505001 4.45008C0.720737 4.19018 1.11417 4.14809 1.38375 4.35608L3.93125 6.32099L7.82313 1.22886C7.95075 1.04424 8.17329 0.942161 8.40239 0.963163C8.63149 0.984164 8.83008 1.12485 8.91932 1.32935C9.00856 1.53386 8.97401 1.7691 8.82938 1.94168Z"
+                                    fill="#245D51" />
+                            </svg>
+                        </span>Update Notification</span>
+                    <span class="subscribe-plan-advantage"><span>
+                            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.82938 1.94168L4.55125 7.53873C4.44922 7.66924 4.29708 7.75475 4.12902 7.77605C3.96095 7.79735 3.79105 7.75266 3.6575 7.65201L0.602501 5.29726C0.332917 5.08927 0.289265 4.70998 0.505001 4.45008C0.720737 4.19018 1.11417 4.14809 1.38375 4.35608L3.93125 6.32099L7.82313 1.22886C7.95075 1.04424 8.17329 0.942161 8.40239 0.963163C8.63149 0.984164 8.83008 1.12485 8.91932 1.32935C9.00856 1.53386 8.97401 1.7691 8.82938 1.94168Z"
+                                    fill="#245D51" />
+                            </svg>
+                        </span>Download material</span>
+                </div>
+                <button class="choose-plan-btn">Choose plan</button>
+            </div>
+
+            <div class="subscribe-plan plan-pro relative">
+                <div class="subscribe-plan-badge"><span>MOST POPULAR</span></div>
+                <span class="paragraph subscribe-plan-cost text-white">
+                    <span class="text-[18px] font-bold text-white">$100</span>/ 6 month
+                </span>
+                <h3 class="subscribe-title text-white">Pro</h3>
+                <p class="paragraph text-left text-white">
+                    Lorem Ipsum is simply dummy text of the printing
+                </p>
+                <div class="subscribe-plan-advantages">
+                    <span class="subscribe-plan-advantage text-white">
+                        <span>
+                            <i class="bi bi-check2"></i>
+                        </span> Access all videos
+                    </span>
+                    <span class="subscribe-plan-advantage text-white">
+                        <span>
+                            <i class="bi bi-check2"></i>
+                        </span>Get Certificate</span>
+                    <span class="subscribe-plan-advantage text-white">
+                        <span>
+                            <i class="bi bi-check2"></i>
+                        </span>Chat support</span>
+                    <span class="subscribe-plan-advantage text-white">
+                        <span>
+                            <i class="bi bi-check2"></i>
+                        </span>Update Notification</span>
+                    <span class="subscribe-plan-advantage text-white">
+                        <span>
+                            <i class="bi bi-check2"></i>
+                        </span>Download material</span>
+                </div>
+                <button class="choose-plan-btn  text-white bg-secondry rounded-full">Choose plan</button>
+                <div class="effect"></div>
+            </div>
+
+            <div class="subscribe-plan">
+                <span class="paragraph subscribe-plan-cost">
+                    <span class="text-[18px] font-bold text-body">$200</span>/ 12month
+                </span>
+                <h3 class="subscribe-title">Enterprise</h3>
+                <p class="paragraph text-left">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+                <div class="subscribe-plan-advantages">
+                    <span class="subscribe-plan-advantage"><span>
+                            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.82938 1.94168L4.55125 7.53873C4.44922 7.66924 4.29708 7.75475 4.12902 7.77605C3.96095 7.79735 3.79105 7.75266 3.6575 7.65201L0.602501 5.29726C0.332917 5.08927 0.289265 4.70998 0.505001 4.45008C0.720737 4.19018 1.11417 4.14809 1.38375 4.35608L3.93125 6.32099L7.82313 1.22886C7.95075 1.04424 8.17329 0.942161 8.40239 0.963163C8.63149 0.984164 8.83008 1.12485 8.91932 1.32935C9.00856 1.53386 8.97401 1.7691 8.82938 1.94168Z"
+                                    fill="#245D51" />
+                            </svg>
+                        </span> Access all videos</span>
+                    <span class="subscribe-plan-advantage"><span>
+                            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.82938 1.94168L4.55125 7.53873C4.44922 7.66924 4.29708 7.75475 4.12902 7.77605C3.96095 7.79735 3.79105 7.75266 3.6575 7.65201L0.602501 5.29726C0.332917 5.08927 0.289265 4.70998 0.505001 4.45008C0.720737 4.19018 1.11417 4.14809 1.38375 4.35608L3.93125 6.32099L7.82313 1.22886C7.95075 1.04424 8.17329 0.942161 8.40239 0.963163C8.63149 0.984164 8.83008 1.12485 8.91932 1.32935C9.00856 1.53386 8.97401 1.7691 8.82938 1.94168Z"
+                                    fill="#245D51" />
+                            </svg>
+                        </span>Get Certificate</span>
+                    <span class="subscribe-plan-advantage"><span>
+                            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.82938 1.94168L4.55125 7.53873C4.44922 7.66924 4.29708 7.75475 4.12902 7.77605C3.96095 7.79735 3.79105 7.75266 3.6575 7.65201L0.602501 5.29726C0.332917 5.08927 0.289265 4.70998 0.505001 4.45008C0.720737 4.19018 1.11417 4.14809 1.38375 4.35608L3.93125 6.32099L7.82313 1.22886C7.95075 1.04424 8.17329 0.942161 8.40239 0.963163C8.63149 0.984164 8.83008 1.12485 8.91932 1.32935C9.00856 1.53386 8.97401 1.7691 8.82938 1.94168Z"
+                                    fill="#245D51" />
+                            </svg>
+                        </span>Chat support</span>
+                    <span class="subscribe-plan-advantage"><span>
+                            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.82938 1.94168L4.55125 7.53873C4.44922 7.66924 4.29708 7.75475 4.12902 7.77605C3.96095 7.79735 3.79105 7.75266 3.6575 7.65201L0.602501 5.29726C0.332917 5.08927 0.289265 4.70998 0.505001 4.45008C0.720737 4.19018 1.11417 4.14809 1.38375 4.35608L3.93125 6.32099L7.82313 1.22886C7.95075 1.04424 8.17329 0.942161 8.40239 0.963163C8.63149 0.984164 8.83008 1.12485 8.91932 1.32935C9.00856 1.53386 8.97401 1.7691 8.82938 1.94168Z"
+                                    fill="#245D51" />
+                            </svg>
+                        </span>Update Notification</span>
+                    <span class="subscribe-plan-advantage"><span>
+                            <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.82938 1.94168L4.55125 7.53873C4.44922 7.66924 4.29708 7.75475 4.12902 7.77605C3.96095 7.79735 3.79105 7.75266 3.6575 7.65201L0.602501 5.29726C0.332917 5.08927 0.289265 4.70998 0.505001 4.45008C0.720737 4.19018 1.11417 4.14809 1.38375 4.35608L3.93125 6.32099L7.82313 1.22886C7.95075 1.04424 8.17329 0.942161 8.40239 0.963163C8.63149 0.984164 8.83008 1.12485 8.91932 1.32935C9.00856 1.53386 8.97401 1.7691 8.82938 1.94168Z"
+                                    fill="#245D51" />
+                            </svg>
+                        </span>Download material</span>
+                </div>
+                <button class="choose-plan-btn">Choose plan</button>
+            </div>
+        </div>
+    </section>
+    <!----------- close subscribe ------------->
+
+    <footer class="container relative">
+        <img src="../images/footer-decor-left.png" alt="decore"
+            class="absolute bottom-[23%] left-[10%] lg:bottom-[30%]">
+        <img src="../images/footer-decor-right.png" alt="decore" class="absolute top-[48%] right-5 lg:right-44">
+        <h2 class="w-full text-[18px] lg:text-[36px] font-light text-white  text-center lg:mt-20">Subscribe to get
+            notified about update</h2>
+        <p>By subscribing with your mail, you will accept our privacy policy</p>
+        <div class="email flex flex-wrap justify-center w-full gap-3 my-10">
+            <input type="text" placeholder="Enter your email">
+            <button class="orange-btn">Subscribe us</button>
+        </div>
+
+        <div class="flex flex-wrap-reverse lg:flex-nowrap w-full mt-5 lg:mt-20 gap-5 justify-center lg:justify-between">
+            <span class="header-logo-span w-full lg:w-fit">
+                <img src="../images/logo/Skill Shoot.png" alt="logo" class="header-logo mx-auto">
+            </span>
+            <div class="nav w-fit block">
+                <ul class="nav-ul w-fit text-center">
+                    <li class="nav-li"><a href="index.html">home</a></li>
+                    <li class="nav-li"><a href="courses-about.html">course</a></li>
+                    <li class="nav-li"><a href="#subscribe">subscribe</a></li>
+                    <li class="nav-li"><a href="index.html#about">about</a></li>
+                    <li class="nav-li"><a href="index.html#testemoni">testemoni</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!---------------close footer  --------------->
+
+    <script src="../js/script.js"></script>
+    <script src="../js/course.js"></script>
+</body>
+
+</html>

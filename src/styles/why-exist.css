@@ -1,0 +1,41 @@
+.why-exist{
+    @apply flex flex-wrap lg:px-0
+}
+.why-exist-row{
+    @apply flex-wrap gap-20 justify-center lg:justify-between lg:gap-2
+}
+
+.why-exist-left{
+    @apply flex flex-wrap  justify-center gap-5 lg:w-[35%] lg:justify-start
+}
+.why-exist-profile{
+    @apply flex gap-4 justify-center lg:justify-start items-end w-full
+}
+.line{
+    @apply block border-t-[1.5px] w-8/12 h-0 lg:w-full
+}
+.why-exist-profile-name{
+    @apply text-[12px] font-semibold lg:text-[18px]
+}
+
+.why-exist-profile-discription{
+    @apply text-[10px] lg:text-[12px]
+}
+
+.why-exist-statistics{
+    @apply flex justify-center gap-5 w-full lg:justify-start lg:gap-12
+}
+.why-exist-statistics-sub h3{
+    @apply text-[24px] text-center font-bold lg:text-left lg:text-[36px]
+}
+.why-exist-right{
+    @apply flex flex-wrap justify-between px-10 gap-14 lg:w-[55%]  lg:p-0 lg:gap-8
+}
+
+.adventages{
+    @apply text-center flex flex-wrap justify-center gap-3 lg:text-left lg:justify-between lg:w-[45%]
+}
+
+.adventages span{
+    @apply w-full mt-5 font-semibold text-[#245D51] lg:text-[24px]
+}

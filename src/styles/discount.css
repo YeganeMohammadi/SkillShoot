@@ -1,0 +1,25 @@
+
+.special-discount{
+    @apply  flex  justify-center items-center lg:justify-between  bg-[#F2E7DB] rounded-[10px] px-[19px] pt-[77px] pb-[90px] relative lg:px-[61px] lg:py-[52px] lg:mt-[186.75px] mb-20 
+}
+
+.special-discount-img{
+    display: none;
+    @apply lg:block lg:absolute lg:bottom-0 lg:right-[2%] xl:right-[5%]
+}
+
+.special-discount-left-col{
+    @apply flex flex-wrap justify-center lg:justify-start lg:w-[55%]
+}
+
+.special-discount-heading{
+    @apply lg:text-left
+}
+
+.banner{
+    @apply relative flex-wrap mt-20 py-10 px-10 mb-28
+}
+
+.banner-buttons{
+    @apply flex flex-wrap w-[240px] gap-5 justify-center xl:w-fit
+}

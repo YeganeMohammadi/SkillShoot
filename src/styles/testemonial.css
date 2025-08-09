@@ -1,0 +1,16 @@
+.testemonial{
+    @apply bg-[#F8F8F8] py-32 flex flex-wrap justify-center relative
+}
+
+.testemoni-card{
+    @apply flex flex-wrap min-w-[375px] lg:w-4/12 justify-center gap-4 p-12 mb-3  rounded-br-sm rounded-bl-sm bg-f5
+}
+
+.testemoni-active{
+    @apply bg-white border-b-4 border-primary 
+}
+
+
+.scroll-arrows{
+    @apply bg-white w-[35.6px] lg:w-[53px] h-[35.6px] lg:h-[53px] rounded-full flex justify-center items-center p-2 z-20
+} 

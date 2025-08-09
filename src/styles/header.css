@@ -1,0 +1,54 @@
+.header{
+    @apply   bg-primary  pt-[29px] relative w-full lg:px-0
+}
+.header-top{
+    @apply flex flex-wrap relative justify-between items-center
+}
+
+.header-logo{
+    @apply w-[106px] h-auto
+}
+
+.header-logo-span{
+    @apply xl:w-4/12
+}
+
+.header-bottom{
+    @apply items-stretch
+}
+
+.header-heading{
+    @apply text-3xl leading-10 md:text-[4.16vw] md:leading-[5.8vw] text-white font-semibold xl:text-[60px] lg:font-semibold xl:leading-[84px]
+}
+
+.header-left-col{
+    @apply my-[56.25px] text-center flex flex-wrap gap-10 justify-center lg:text-left lg:w-[45%] lg:justify-start relative
+}
+
+.header-paragraph{
+    @apply text-white/60 text-xs leading-8
+}
+
+.header-left-bottom{
+    @apply flex flex-wrap items-center gap-10 justify-center lg:justify-start lg:w-full lg:gap-2
+}
+
+.header-social{
+    @apply flex justify-around w-6/12 lg:w-3/12 
+}
+
+.header-right-col{
+    @apply hidden lg:flex lg:justify-start lg:items-end lg:w-[45%] lg:h-auto lg:mt-[56.25px]
+}
+
+.header-right-col img{
+    @apply h-auto object-cover
+}
+
+.course-page-par-lg{
+    @apply hidden lg:block
+}
+
+.course-page-par{
+    @apply lg:hidden lg:leading-[0px]
+}

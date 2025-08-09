@@ -1,0 +1,19 @@
+.nav-icon{
+    @apply absolute top-[29px] right-[44px] lg:scale-0 cursor-pointer z-30
+}
+
+.nav{   
+    @apply hidden flex flex-wrap w-full mt-10 lg:mt-0 lg:w-fit lg:bg-transparent lg:flex lg:flex-nowrap lg:items-center lg:justify-between xl:w-8/12
+}
+
+.nav-ul{ 
+    @apply w-full lg:w-fit lg:flex 
+}
+
+.nav-li{
+    @apply text-white/60 mb-5 lg:mb-0 lg:mr-8 hover:text-white capitalize cursor-pointer
+}
+
+.nav-login-registeration{
+    @apply flex gap-3  items-center
+}

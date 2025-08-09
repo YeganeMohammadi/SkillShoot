@@ -1,0 +1,16 @@
+.login-body{
+    @apply bg-[url(../images/login/bg.png)] w-full h-full flex items-center  
+}
+
+
+.login-form{
+    @apply bg-f5 rounded-[15px] max-w-[320px] lg:max-w-[423px] p-5 mx-auto flex flex-wrap justify-start pb-14 z-50
+}
+
+.login-form label{
+    @apply text-body text-[12px] font-semibold
+}
+
+.login-form input{
+    @apply text-[12px] lg:text-[14px]
+}
